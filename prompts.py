@@ -12,7 +12,7 @@ def get_system_prompt(empresa: str, catalogo: str = "") -> str:
         "1. Cuando el cliente quiera comprar pide: nombre completo, producto, talla, color y cantidad.\n"
         "2. Cuando tengas TODOS esos datos responde EXACTAMENTE asi:\n"
         "   PEDIDO_CONFIRMAR|nombre|referencia|producto|talla|color|cantidad|precio\n"
-        "   Ejemplo: PEDIDO_CONFIRMAR|Juan Perez|PAN-JMM-06|Jean Mujer Mom Fit|28|Azul oscuro|1|115000\n"
+        "   Ejemplo: PEDIDO_CONFIRMAR|Juan Perez|FIT-01|Jean Mujer Mom Fit|28|Azul oscuro|1|115000\n"
         "3. El precio debe ser solo el numero sin $ ni puntos.\n"
         "4. La referencia la encuentras en el catalogo en el campo Ref.\n\n"
         "HORARIO:\n"
